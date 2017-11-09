@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+	<title>攝氏轉為華式 </title>
+	<script type = "text/javascript">
+	  var Celsius;	  
+	  Celsius = window.prompt("請輸入現在攝氏溫度");
+	  document.writeln("<h1>攝氏溫度: "+Celsius+"(Celsius)<h1>");
+	  
+	  var Fahrenheit;
+	  function tranform(temp){
+	    return temp*9/5+32;
+	    
+	  }
+	  Fahrenheit = tranform(Celsius);
+	  //Fahrenheit = parseInt(Fahrenheit);
+	  
+	  document.writeln("<h1>華氏溫度: "+Fahrenheit+"(Fahrenheit)<h1>");
+	  
+	</script>
+  </head>
+  <body>
+  </body>
+</html>
